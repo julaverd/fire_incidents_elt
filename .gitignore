@@ -35,8 +35,8 @@ nosetests.xml
 .project
 .pydevproject
 
-# Data Folder
-data/*
+# Data Folder with source CSV
+data/Fire_Incidents.csv
 
 # Sensitive Information
 database.ini
