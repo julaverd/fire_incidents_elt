@@ -40,3 +40,12 @@ data/Fire_Incidents.csv
 
 # Sensitive Information
 database.ini
+
+# DBT Virtual Environment
+fire_incidents_transform/env-dbt/
+
+# DBT Running Logs
+fire_incidents_transform/logs/
+
+# DBT Compilation
+fire_incidents_transform/target/

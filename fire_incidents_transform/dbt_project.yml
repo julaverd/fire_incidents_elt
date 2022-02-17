@@ -1,0 +1,15 @@
+name: fire_incidents
+config-version: 2
+version: 1.0.1
+
+profile: fire_incidents
+model-paths: [models]
+
+models:
+  # Be sure to namespace your model configs to your project name
+  fire_incidents:
+
+    # This configures models found in models/dimensions/
+    dimensions:
+      +enabled: true
+      +materialized: view
